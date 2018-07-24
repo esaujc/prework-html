@@ -1,0 +1,280 @@
+body{
+  background-color: white;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left{
+  display: inline-block;
+}
+
+.clearfix { clear: both; }
+
+.header-bar{
+  padding-top: 15px;
+  color:white;
+  background: rgb(32, 101, 136);
+
+
+}
+
+
+.header-bar a{
+  text-decoration: none;
+  color: white;
+}
+.header-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+.header-links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+
+}
+
+.header-left{
+  display: inline-block;
+  padding-left: 15px;
+}
+.header-form{
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+
+.header-text{
+    height: 45px;
+    box-sizing: border-box;
+    background: rgb(31, 82, 111);
+    border:0;
+    color: white;
+}
+.header-button{
+  background: rgb(31, 82, 111);
+}
+.npm-img{ /* Se podría usar la misma clase para las dos imágenes*/
+  height: 50px;
+  width: auto;
+}
+.bear-img{
+  height: 50px;
+  width: auto;
+}
+.lupa-img{
+  height: 25px;
+  width: auto;
+  vertical-align: top;
+  padding: 10px;
+  float:right;
+}
+
+.header-logo{
+  background: url("./images/city-scape.svg");
+  /*background-size: cover;*/
+  height: 500px;
+
+}
+.container{
+  width:50%;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.header-logo .city-img{
+  float:right;
+}
+h1 {
+	font-size: 3em;
+	text-align: left;
+	padding-top: 20px;
+}
+header p {
+  font-size: 1.5em;
+}
+.col{
+  float:left;
+}
+.col-2{
+  width:70%;
+}
+
+.header-btn{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  /*font-family: "Roboto Condensed";*/
+  font-size:1.5em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration:none;
+  display:block;
+  width: 200px;
+  margin-top: 75px;
+  padding: 14px 20px 14px 20px;
+  /*border: 2px solid rgba(0, 0, 0, 0.2);*/
+  border-radius: 20px;
+}
+
+.orgs-class{
+  background-color: rgb(39, 53, 71);
+  padding-top: 75px;
+  padding-left:400px;
+  padding-bottom: 75px;
+  /*  display: inline-block;*/
+  margin: 0 auto;
+  color: white;
+}
+
+/* Haciendo pruebas*/
+/*
+#orgs img{
+  display: inline-block;
+
+}*/
+.imgSectionOrgs{
+ float:left;
+ width:600px;
+ 
+}
+
+.orgs-content{
+  float:left;
+  display: inline-block;
+  padding-left: 25px;
+  width:40%
+}
+
+h2{
+	font-size: 2.5em;
+	padding: 0;
+	margin: 0;
+}
+.orgs-sign-btn{
+  background-color:rgb(203, 56, 55);
+  color: white;
+  font-size:1.5em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none; /* Quita el subrayado*/
+  padding: 10px 25px 10px 25px;
+  margin: 15px 0 0 25px;
+  border-radius: 20px; /* Redondea el botón*/
+  display: block; /* Al "convertirlo" a bloque, no deja elementos al lado y baja el texto. Además se separa del elemento anterior*/
+  width: 200px;   /* Tanto el "padding" como "width" se ven afectados por el "display:block"*/
+	
+}
+.orgs-learn{
+	display:inline-block;
+	margin-left:25px;
+	margin-top:10px;
+	
+}
+.orgs-list{
+	line-height: 3em;
+}
+
+
+.npm-class{
+	background: url("./images/forklift.svg");
+	background-size: cover;
+	position: relative; /* Si lo quito, no pasa nada y debería pasar.*/
+	height: 450px;
+	padding-top: 50px;
+}
+
+
+.npm-text{
+		position: absolute; /* RElacionado con el objeto anterior "relative"*/ 
+		color: white;
+		width: 25%;
+		bottom: 20vh;
+		left: 10%;
+		font-size: 1.3em;
+		
+}
+h3{
+	font-size: 1.7em;
+}
+
+.npm-install-btn{
+	background-color: rgb(49, 68, 88);
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 100px;
+	padding: 10px 25px 10px 25px;
+	margin: 25px 0 0 0;
+	display:block;
+	
+}
+.blocks-header{
+	clear: both;
+	width:90%;
+    margin: 0 auto;
+    color: rgb(135, 145, 156);
+	
+	
+}
+.blocks-header p{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+h4{
+	color: rgb(83, 88, 98);
+	font-size: 2.2em;
+	text-align: center;
+}
+.block-boxes{
+	color: rgb(135, 145, 156);
+	
+}
+
+.block-box{
+	box-sizing: border-box;
+	text-align: center;
+	width: 30%;
+	margin: 40px 1% 0;
+	padding: 0 24px 0 24px;
+	
+}
+.block-box .link{
+	text-decoration: none;
+	color: rgb(208, 74, 73);
+}
+.block-box .img{
+	width: 100px;
+	
+}
+h5{
+	color: rgb(83, 88, 98);
+	font-size: 1.3em;
+}
